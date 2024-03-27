@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 65.1%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: fantasy;
+}
+
+#headertext h1 {
+    float: left;
+    display: inline;
+    font-size: 215%;
+    font-weight: bold;
+}
+
+#headertext {
+    white-space: nowrap;
+    float: left;
+    padding-top: 4.8%;
+    margin-left: 4%;
+    overflow-y: hidden;
+}
+
+#black{
+    font-family: fantasy;
+    color: black;
+}
+
+#darkpurple {
+    font-family: fantasy;
+    color: rgb(61, 16, 61);
+}
+
+#head {
+    background-color: rgb(158, 18, 158);
+    height: 122.5px;
+}
+
+#head img {
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 0.4%;
+    margin-right: 5%;
+    float: right;
+    height: 114px;
+    width: 70.4%;
+}
+
+#menu{
+    float: left;
+    width: 100%;
+}
+
+#bootNav {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#menu ul{
+    width: 100%;
+}
+
+#menu ul li{
+    width: 100%;
+}
+
+#menu ul li a{
+    text-align: center;
+    border: 1px solid rgb(158, 18, 158);
+    color: white;
+}
+
+#menu ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+#burgur{
+    background-color: rgb(158, 18, 158);
+    border: 1px solid white;
+}
+
+#mainz {
+    float: left;
+    width: 100%;
+}
+
+#mainBox {
+    font-size: 25px;
+    color: rgb(158, 18, 158);
+    background-color: rgb(0, 0, 0);
+    padding-top: 1%;
+    width: 100%;
+    height: 504px;
+    float: left;
+}
+
+#mainBoxContent {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#myCarouselYay {
+    border: 3px solid rgb(158, 18, 158);
+    margin-left: 10%;
+    width: 80%;
+}
+
+#title {
+    position: absolute;
+    bottom: 2%;
+    padding: 30px;
+    color: rgb(158, 18, 158);
+    -webkit-text-stroke: 2px black;
+}
+
+#leftnright {
+    width: 80%;
+}
+
+.carousel-control-prev{
+    width: 8%;
+}
+
+.carousel-control-next{
+    width: 8%;
+}
+
+.carousel-indicators button
+{
+    background-color: rgb(158, 18, 158) !important;
+}
+
+.carousel-indicators .active {
+    background-color: black !important;
+}
+
+#feet {
+    background-color: rgb(158, 18, 158);
+    height: 51px;
+    clear: both;
+    padding-top: 1.35%;
+    text-align: center;
+}
+
+#feet p{
+    color: black;
+}
+
+#pageBod {
+   
+    background-image: url("Images/backgroundpicture.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
